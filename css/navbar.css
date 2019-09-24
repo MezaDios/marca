@@ -1,0 +1,60 @@
+button.bg-light, button.bg-warning {
+    transition: all ease 200ms !important;
+}
+
+button.bg-light:hover, button.bg-warning:hover{
+    background-color: black !important;
+    color: white !important;
+    transition: all ease 200ms !important;
+}
+
+.link-hover > span{
+    color: black !important;
+}
+
+.link-hover:hover > span {
+    color: #c00 !important;
+}
+
+.bg-warning {
+    background-color: #c00 !important;
+}
+
+.text-warning {
+    background-color: white !important;
+    color: #c00 !important;
+}
+
+.dropdown-menu {
+    min-width: 70vw;
+    opacity: 0.95;
+}
+
+.dropdown-menu a:hover {
+    color: #c00 !important;
+}
+
+.dropdown-item:hover {
+    background: transparent;
+}
+
+.different {
+    transform: skew(-10deg);
+    background-color: #af0000;
+}
+
+.bg-secondary {
+    background-color: #eee !important;
+}
+
+.separator {
+    width: 2px;
+}
+
+.bg-dark {
+    background-color: #212121 !important;
+}
+
+.bg-over {
+    background-color: rgba(0, 0, 0, 0.7)
+}
